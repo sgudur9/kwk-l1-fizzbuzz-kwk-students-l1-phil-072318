@@ -7,6 +7,7 @@ def counter
     number +=1
   end
 end
+counter
 
 def fizzbuzz(int)
   if int % 15 == 0
@@ -17,5 +18,4 @@ def fizzbuzz(int)
     return "Buzz"
   end
 end
-
 fizzbuzz (15)
